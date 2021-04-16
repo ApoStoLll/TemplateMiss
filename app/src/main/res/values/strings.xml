@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MissAppsTemplate</string>
+    <string name="facebook_app_id">462214071652426</string> <string name="fb_login_protocol_scheme">fb462214071652426</string>
+
+</resources>
