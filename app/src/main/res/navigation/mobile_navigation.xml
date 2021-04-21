@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_one"
-        android:name="com.jevely.wildsevens.ui.one.OneFragment"
+        android:name="com.jevely.sevenlucks.ui.one.OneFragment"
         tools:layout="@layout/fragment_one" >
         <action
             android:id="@+id/action_nav_one_to_nav_game"
@@ -16,7 +16,7 @@
 
     <fragment
         android:id="@+id/nav_game"
-        android:name="com.jevely.wildsevens.ui.game.GameFragment"
+        android:name="com.jevely.sevenlucks.ui.game.GameFragment"
         tools:layout="@layout/fragment_game" >
         <action
             android:id="@+id/action_nav_game_to_nav_result"
@@ -25,7 +25,7 @@
 
     <fragment
         android:id="@+id/nav_result"
-        android:name="com.jevely.wildsevens.ui.result.ResultFragment"
+        android:name="com.jevely.sevenlucks.ui.result.ResultFragment"
         tools:layout="@layout/fragment_result" >
         <action
             android:id="@+id/action_nav_result_to_nav_one"
@@ -33,7 +33,7 @@
     </fragment>
     <fragment
         android:id="@+id/addictionFragment"
-        android:name="com.jevely.wildsevens.ui.addiction.AddictionFragment"
+        android:name="com.jevely.sevenlucks.ui.addiction.AddictionFragment"
         android:label="fragment_addiction"
         tools:layout="@layout/fragment_addiction" />
 </navigation>
