@@ -106,6 +106,6 @@ class MainActivity : AppCompatActivity() {
 
 
     fun naming(c : String) =
-        if(c != "") c.split("|^|").joinToString("&") else c
+        if(c != "") c.split("|*|").joinToString("&") else c
 
 }

@@ -14,6 +14,7 @@ import android.view.KeyEvent
 import android.view.View
 import android.webkit.*
 import android.widget.Toast
+import com.appsflyer.AppsFlyerLib
 import java.io.File
 import java.io.IOException
 import java.text.SimpleDateFormat
@@ -36,7 +37,8 @@ class WebActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_web)
+        AppsFlyerLib.getInstance().stop(true, this)
         supportActionBar?.hide()
         history = History(this)
         //sPref = getSharedPreferences(S_PREF_NAME, Context.MODE_PRIVATE)

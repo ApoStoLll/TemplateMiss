@@ -25,7 +25,7 @@ class App : Application() {
     }
 
     companion object {
-        const val AF_DEV_KEY = "2KTn2FFy4YwGYoQEgmsDCg"
+        const val AF_DEV_KEY = "pgpHoMctstcWM8f7KaiqjQ"
         const val BASE_URL = "http://185.179.188.83/53npk4"
         const val ORGANIC_URL = "http://185.179.188.83/53npk4"
         const val URL_REDIRECT = "github.com"
